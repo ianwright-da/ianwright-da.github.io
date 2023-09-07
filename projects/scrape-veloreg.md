@@ -19,9 +19,11 @@ I am an avid cyclist and race competitively. I am also lucky enough to live with
 Below are links to notebooks containing the three stages of the process and commentary.
 
 
-[Part 1 - Scraping the Site](../projects/scraperesultspage.html)
-[Part 2 - Cleaning the Data](../projects/cleanresults.html)
-[Part 3 - Building a Rider Points System](../projects/updatepointss.html)
+[Part 1 - Scraping the Site](../scraperesultspage.html)
+
+[Part 2 - Cleaning the Data](../cleanresults.html)
+
+[Part 3 - Building a Rider Points System](../updatepointss.html)
 
 
 <hr>
