@@ -6,9 +6,9 @@ title: "Scraping Local Cycling Results to Create a Rider Ranking System"
 date: Summer 2023
 published: true
 labels:
-  	- Web Scraping
-  	- Data Analysis
-	- KPI
+  - Web Scraping
+  - Data Analysis
+  - KPI
 summary: "A webscraping project to scrape and analyze track cycling results."
 ---
 
