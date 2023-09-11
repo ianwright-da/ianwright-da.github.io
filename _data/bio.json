@@ -35,9 +35,9 @@
     }
   ],
   "interests": [
-    { "name": "Data visualizations" },
-    { "name": "Machine Learning" },
-    { "name": "Ed tech" }
+    { "name": "Data visualizations"},
+    { "name": "Machine Learning"},
+    { "name": "Ed tech"}
   ],
   "skills": [
     {
