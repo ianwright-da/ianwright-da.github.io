@@ -8,6 +8,7 @@ published: true
 labels:
   - Tableau
   - Data Visualizations
+  - Data Dashboard
 summary: "A Tableau dashboard created to assist a  hospital chain in identifying and troubleshooting underperforming hospitals."
 ---
 

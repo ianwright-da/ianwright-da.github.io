@@ -9,6 +9,8 @@ labels:
   - Web Scraping
   - Data Analysis
   - Data Cleaning
+  - Pandas
+  - BeautifulSoup
 summary: "A webscraping project to scrape and analyze track cycling results."
 ---
 <img src="../img/veloreg/track.PNG" alt='missing' ALIGN='right'/>

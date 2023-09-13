@@ -7,6 +7,7 @@ date: 2022
 published: true
 labels:
   - Excel
+  - Ed Tech
   - Google Suite
   - Vlookup
   - Pivot Table
