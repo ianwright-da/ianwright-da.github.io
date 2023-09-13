@@ -1,0 +1,112 @@
+{
+  "basics": {
+    "name": "Ian Wright",
+    "label": "Data Analyst",
+    "picture": "",
+    "email": "ian.wright9@gmail.com",
+    "phone": "",
+    "website": "https://ianwright-da.github.io",
+    "summary": "I am a data analyst expecting to graduate with an MS in Data Analytics in the fall of 2023. As a former math teacher, I really value opportunities to tell stories and make meaning of complex metrics and models for non-technical audiences.",
+    "location": { "address": "", "postalCode": "", "city": "Chicago", "countryCode": "USA", "region": "Illinois" },
+    "profiles": [
+      { "network": "github", "username": "ianwright-da", "url": "http://github.com/ianwright-da" }
+     
+      
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "area": "Economics, International Studies",
+      "studyType": "Dual BA",
+      "startDate": "2008",
+      "endDate": "2012",
+      "courses": ["With Honors", "Minors in Math and Politcal Science"
+      ]},
+    {  
+
+      "institution": "Western Governors University",
+      "area": "Data Analytics",
+      "studyType": "MA",
+      "startDate": "2023",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "interests": [
+    { "name": "Data visualizations"},
+    { "name": "Machine Learning"},
+    { "name": "Ed tech"}
+  ],
+  "skills": [
+    {
+      "name": "Tool and Languages",
+      "keywords": ["Python", "SQL", "Tableau", "Github", "Microsoft Excel"]
+    },
+    {
+      "name": "Python Packages",
+      "keywords": [ "sklearn", "matplotlib", "numpy", "pandas", "seaborn"]
+    }
+
+  ],
+
+  "work": [
+    {
+      "company": "Noble Network of Charter Schools",
+      "position": "Math Teacher",
+      "website": "www.nobleschools.org",
+      "startDate": "2018-08-01",
+      "endDate": "2023-08-01",
+      "summary": "Data-driven, tech-savvy and high-performing educator",
+      "highlights": [
+        "Developed an automated task tracking system using Google Sheets formulas and scripts which enabled an innovative self-paced classroom model using ed tech and blended learning",
+        "Consistent year over year student test score growth of 50 points in math (double that of peer teachers in the network",
+        "Measured and tracked student data in Tableau and Excel to differentiate and adapt instruction"
+      ]
+    },
+    {
+      "company": "Academic Approach",
+      "position": "School Programs Instructor",
+      "website": "www.academicapproach.com",
+      "startDate": "2017-03-01",
+      "endDate": "2018-08-1",
+      "summary": "Presented SAT curricula to diverse audiences and settings",
+      "highlights": [
+        "Responded to student data to adapt curriculum and drive 36 points of student test score growth ",
+        "Maintained relationships with various Chicago public and private schools as clients"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "position": "Independent Tutor",
+      "website": "",
+      "startDate": "2013-03-01",
+      "endDate": "2017-03-01",
+      "summary": "",
+      "highlights": [
+        "Supported students in content areas ranging from 6th grade math to GRE prep and MBA level Economics",
+        "Partnered with local non-profits such as the YMCA, and the Upward Bound Programs and University of Wisconsin--Milwaukee and Robert Morris University"
+      ]
+    },
+    {
+      "company": "Urban League of Greater Madison",
+      "position": "Americorps Member",
+      "website": "",
+      "startDate": "2012-08-01",
+      "endDate": "2013-03-01",
+      "summary": "",
+      "highlights": [
+        "Managed a team of 15 volunteers to provide matched tutoring to high school students in math",
+        "Tracked volunteer and student metrics using Excel formulas and pivot table functions"
+        
+      ]
+    }
+  ],
+
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
