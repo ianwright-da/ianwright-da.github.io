@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0059)file:///C:/Users/Ian/Downloads/Scrape%20Results%20Page.html -->
+<!-- saved from url=(0065)file:///C:/Users/Ian/Downloads/Scrape%20Results%20Page%20(1).html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -14810,7 +14810,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Part-I:-Scraping-the-Results">Part I: Scraping the Results<a class="anchor-link" href="file:///C:/Users/Ian/Downloads/Scrape%20Results%20Page.html#Part-I:-Scraping-the-Results">¶</a></h1><p>The goal of this project is to generate a rider ranking system for local track cycling events whose results are hosted at <a href="https://www.veloreg.com/">https://www.veloreg.com/</a></p>
+<h1 id="Part-I:-Scraping-the-Results">Part I: Scraping the Results<a class="anchor-link" href="file:///C:/Users/Ian/Downloads/Scrape%20Results%20Page%20(1).html#Part-I:-Scraping-the-Results">¶</a></h1><p>The goal of this project is to generate a rider ranking system for local track cycling events whose results are hosted at <a href="https://www.veloreg.com/">https://www.veloreg.com/</a></p>
 <p>The site currently hosts results for two different velodromes (tracks) which have different subdomains. Each race event has an individual URL and ID, though the pattern governing event ID numbers is not readily identifiable.</p>
 <p>Below, we scrape the home page for each year and track to generate a list of event IDs.</p>
 
@@ -14939,7 +14939,7 @@ Kenosha ID's:
 
 
 <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">race_urls</span><span class="p">),</span> <span class="s1">'urls'</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">race_urls</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">race_urls</span><span class="p">[:</span><span class="mi">3</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -14962,7 +14962,7 @@ Kenosha ID's:
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>159 urls
-['http://erv.veloreg.com/race-results/321099', 'http://erv.veloreg.com/race-results/320768', 'http://erv.veloreg.com/race-results/320101', 'http://erv.veloreg.com/race-results/319013', 'http://erv.veloreg.com/race-results/318460', 'http://erv.veloreg.com/race-results/318130', 'http://erv.veloreg.com/race-results/318119', 'http://erv.veloreg.com/race-results/317589', 'http://erv.veloreg.com/race-results/316612', 'http://erv.veloreg.com/race-results/315591', 'http://erv.veloreg.com/race-results/315454', 'http://erv.veloreg.com/race-results/315039', 'http://erv.veloreg.com/race-results/314543', 'http://erv.veloreg.com/race-results/313830', 'http://erv.veloreg.com/race-results/313105', 'http://erv.veloreg.com/race-results/311586', 'http://erv.veloreg.com/race-results/311573', 'http://erv.veloreg.com/race-results/310744', 'http://erv.veloreg.com/race-results/309895', 'http://erv.veloreg.com/race-results/308249', 'http://erv.veloreg.com/race-results/282780', 'http://erv.veloreg.com/race-results/24819', 'http://erv.veloreg.com/race-results/344026', 'http://erv.veloreg.com/race-results/343326', 'http://erv.veloreg.com/race-results/342688', 'http://erv.veloreg.com/race-results/341531', 'http://erv.veloreg.com/race-results/341495', 'http://erv.veloreg.com/race-results/340925', 'http://erv.veloreg.com/race-results/340268', 'http://erv.veloreg.com/race-results/339725', 'http://erv.veloreg.com/race-results/339669', 'http://erv.veloreg.com/race-results/339110', 'http://erv.veloreg.com/race-results/338478', 'http://erv.veloreg.com/race-results/338007', 'http://erv.veloreg.com/race-results/336787', 'http://erv.veloreg.com/race-results/336794', 'http://erv.veloreg.com/race-results/335930', 'http://erv.veloreg.com/race-results/335080', 'http://erv.veloreg.com/race-results/335053', 'http://erv.veloreg.com/race-results/334301', 'http://erv.veloreg.com/race-results/334076', 'http://erv.veloreg.com/race-results/333480', 'http://erv.veloreg.com/race-results/329221', 'http://erv.veloreg.com/race-results/321780', 'http://erv.veloreg.com/race-results/361672', 'http://erv.veloreg.com/race-results/361458', 'http://erv.veloreg.com/race-results/361038', 'http://erv.veloreg.com/race-results/360500', 'http://erv.veloreg.com/race-results/360196', 'http://erv.veloreg.com/race-results/359645', 'http://erv.veloreg.com/race-results/359063', 'http://erv.veloreg.com/race-results/358621', 'http://erv.veloreg.com/race-results/358523', 'http://erv.veloreg.com/race-results/358163', 'http://erv.veloreg.com/race-results/357526', 'http://erv.veloreg.com/race-results/356839', 'http://erv.veloreg.com/race-results/356567', 'http://erv.veloreg.com/race-results/356026', 'http://erv.veloreg.com/race-results/355846', 'http://erv.veloreg.com/race-results/355237', 'http://erv.veloreg.com/race-results/354602', 'http://erv.veloreg.com/race-results/353646', 'http://erv.veloreg.com/race-results/353475', 'http://erv.veloreg.com/race-results/352809', 'http://erv.veloreg.com/race-results/352512', 'http://erv.veloreg.com/race-results/344612', 'http://erv.veloreg.com/race-results/377414', 'http://erv.veloreg.com/race-results/377097', 'http://erv.veloreg.com/race-results/376828', 'http://erv.veloreg.com/race-results/376587', 'http://erv.veloreg.com/race-results/376250', 'http://erv.veloreg.com/race-results/376121', 'http://erv.veloreg.com/race-results/375802', 'http://erv.veloreg.com/race-results/375385', 'http://erv.veloreg.com/race-results/374994', 'http://erv.veloreg.com/race-results/374959', 'http://erv.veloreg.com/race-results/374872', 'http://erv.veloreg.com/race-results/373961', 'http://erv.veloreg.com/race-results/363165', 'http://erv.veloreg.com/race-results/363039', 'http://erv.veloreg.com/race-results/363033', 'http://erv.veloreg.com/race-results/362877', 'http://erv.veloreg.com/race-results/362678', 'http://erv.veloreg.com/race-results/362188', 'http://erv.veloreg.com/race-results/362151', 'http://erv.veloreg.com/race-results/361961', 'http://erv.veloreg.com/race-results/406639', 'http://erv.veloreg.com/race-results/405703', 'http://erv.veloreg.com/race-results/404154', 'http://erv.veloreg.com/race-results/405014', 'http://erv.veloreg.com/race-results/404150', 'http://erv.veloreg.com/race-results/404146', 'http://erv.veloreg.com/race-results/403591', 'http://erv.veloreg.com/race-results/401498', 'http://erv.veloreg.com/race-results/400651', 'http://erv.veloreg.com/race-results/400647', 'http://erv.veloreg.com/race-results/399924', 'http://erv.veloreg.com/race-results/399920', 'http://erv.veloreg.com/race-results/399224', 'http://erv.veloreg.com/race-results/398556', 'http://erv.veloreg.com/race-results/398085', 'http://erv.veloreg.com/race-results/397414', 'http://erv.veloreg.com/race-results/397410', 'http://erv.veloreg.com/race-results/396775', 'http://erv.veloreg.com/race-results/396144', 'http://erv.veloreg.com/race-results/395272', 'http://erv.veloreg.com/race-results/395247', 'http://erv.veloreg.com/race-results/391648', 'http://erv.veloreg.com/race-results/433561', 'http://erv.veloreg.com/race-results/433162', 'http://erv.veloreg.com/race-results/432630', 'http://erv.veloreg.com/race-results/432621', 'http://erv.veloreg.com/race-results/432617', 'http://erv.veloreg.com/race-results/432626', 'http://erv.veloreg.com/race-results/432537', 'http://erv.veloreg.com/race-results/431898', 'http://erv.veloreg.com/race-results/431273', 'http://erv.veloreg.com/race-results/430541', 'http://erv.veloreg.com/race-results/429910', 'http://erv.veloreg.com/race-results/429001', 'http://erv.veloreg.com/race-results/428949', 'http://erv.veloreg.com/race-results/428232', 'http://erv.veloreg.com/race-results/427657', 'http://erv.veloreg.com/race-results/427424', 'http://erv.veloreg.com/race-results/426682', 'http://erv.veloreg.com/race-results/426643', 'http://erv.veloreg.com/race-results/425975', 'http://erv.veloreg.com/race-results/424886', 'http://erv.veloreg.com/race-results/421250', 'https://kenosha.veloreg.com/race-results/430985', 'https://kenosha.veloreg.com/race-results/430741', 'https://kenosha.veloreg.com/race-results/430359', 'https://kenosha.veloreg.com/race-results/429342', 'https://kenosha.veloreg.com/race-results/428947', 'https://kenosha.veloreg.com/race-results/428280', 'https://kenosha.veloreg.com/race-results/428276', 'https://kenosha.veloreg.com/race-results/426785', 'https://kenosha.veloreg.com/race-results/426750', 'https://kenosha.veloreg.com/race-results/426719', 'https://kenosha.veloreg.com/race-results/425051', 'https://kenosha.veloreg.com/race-results/424971', 'https://kenosha.veloreg.com/race-results/425017', 'https://kenosha.veloreg.com/race-results/424872', 'https://kenosha.veloreg.com/race-results/421252', 'https://kenosha.veloreg.com/race-results/430985', 'https://kenosha.veloreg.com/race-results/430741', 'https://kenosha.veloreg.com/race-results/430359', 'https://kenosha.veloreg.com/race-results/429342', 'https://kenosha.veloreg.com/race-results/428947', 'https://kenosha.veloreg.com/race-results/428280', 'https://kenosha.veloreg.com/race-results/428276', 'https://kenosha.veloreg.com/race-results/426785', 'https://kenosha.veloreg.com/race-results/426750', 'https://kenosha.veloreg.com/race-results/426719', 'https://kenosha.veloreg.com/race-results/425051', 'https://kenosha.veloreg.com/race-results/424971', 'https://kenosha.veloreg.com/race-results/425017', 'https://kenosha.veloreg.com/race-results/424872', 'https://kenosha.veloreg.com/race-results/421252']
+['http://erv.veloreg.com/race-results/321099', 'http://erv.veloreg.com/race-results/320768', 'http://erv.veloreg.com/race-results/320101']
 </pre>
 </div>
 </div>
@@ -14988,7 +14988,7 @@ Kenosha ID's:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">error_table</span><span class="o">=</span><span class="p">[]</span>
@@ -15067,8 +15067,8 @@ Kenosha ID's:
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>no velodrome:  0
-error: 17
-['http://erv.veloreg.com/race-results/318460', 'http://erv.veloreg.com/race-results/318130', 'http://erv.veloreg.com/race-results/318119', 'http://erv.veloreg.com/race-results/314543', 'http://erv.veloreg.com/race-results/340925', 'http://erv.veloreg.com/race-results/339669', 'http://erv.veloreg.com/race-results/335080', 'http://erv.veloreg.com/race-results/374959', 'http://erv.veloreg.com/race-results/363033', 'http://erv.veloreg.com/race-results/361961', 'http://erv.veloreg.com/race-results/433561', 'http://erv.veloreg.com/race-results/432537', 'http://erv.veloreg.com/race-results/427424', 'https://kenosha.veloreg.com/race-results/426719', 'https://kenosha.veloreg.com/race-results/424971', 'https://kenosha.veloreg.com/race-results/426719', 'https://kenosha.veloreg.com/race-results/424971']
+error: 16
+['http://erv.veloreg.com/race-results/318460', 'http://erv.veloreg.com/race-results/318130', 'http://erv.veloreg.com/race-results/318119', 'http://erv.veloreg.com/race-results/314543', 'http://erv.veloreg.com/race-results/340925', 'http://erv.veloreg.com/race-results/339669', 'http://erv.veloreg.com/race-results/335080', 'http://erv.veloreg.com/race-results/374959', 'http://erv.veloreg.com/race-results/363033', 'http://erv.veloreg.com/race-results/361961', 'http://erv.veloreg.com/race-results/432537', 'http://erv.veloreg.com/race-results/427424', 'https://kenosha.veloreg.com/race-results/426719', 'https://kenosha.veloreg.com/race-results/424971', 'https://kenosha.veloreg.com/race-results/426719', 'https://kenosha.veloreg.com/race-results/424971']
 </pre>
 </div>
 </div>
@@ -15095,7 +15095,7 @@ error: 17
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">results_array</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">results_table</span><span class="p">)</span>
@@ -15126,69 +15126,53 @@ error: 17
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>17733
-                date                              title  \
-0  September 7, 2017  Closing Night Race Results | ERV    
-1  September 7, 2017  Closing Night Race Results | ERV    
-2  September 7, 2017  Closing Night Race Results | ERV    
-3  September 7, 2017  Closing Night Race Results | ERV    
-4  September 7, 2017  Closing Night Race Results | ERV    
+<pre>17832
+                date                              title    race_name placing  \
+0  September 7, 2017  Closing Night Race Results | ERV   Slow Race *       1   
+1  September 7, 2017  Closing Night Race Results | ERV   Slow Race *       2   
+2  September 7, 2017  Closing Night Race Results | ERV   Slow Race *       3   
+3  September 7, 2017  Closing Night Race Results | ERV   Slow Race *       4   
+4  September 7, 2017  Closing Night Race Results | ERV   Slow Race *       5   
 
-                            race_name placing              rider        team  \
-0  Women Open and 4/5 Devil's Scratch       1     Carlos Bernabe               
-1  Women Open and 4/5 Devil's Scratch       2      Brad Erickson  xXx Racing   
-2  Women Open and 4/5 Devil's Scratch       3  Christopher Witek               
-3  Women Open and 4/5 Devil's Scratch       4      Chris Kirkham               
-4  Women Open and 4/5 Devil's Scratch       5          Adam Hart               
+               rider                                               team  \
+0       Alex Bolotin  Polish &amp; Slavic FCU International Cycling Team...   
+1         Brian Haas                                           Fairlife   
+2       Jacob Cramer                                 KLiCK Cycling Team   
+3          Adam Hart                                                      
+4  Joseph Proszowski                                                      
 
   racenumber  
-0        351  
-1        190  
-2        197  
-3        202  
-4        498  
+0         26  
+1         11  
+2         92  
+3        498  
+4        164  
        date                                            title  \
-17728  2023  Opening Night Race Results | Kenosha Velodrome    
-17729  2023  Opening Night Race Results | Kenosha Velodrome    
-17730  2023  Opening Night Race Results | Kenosha Velodrome    
-17731  2023  Opening Night Race Results | Kenosha Velodrome    
-17732  2023  Opening Night Race Results | Kenosha Velodrome    
+17827  2023  Opening Night Race Results | Kenosha Velodrome    
+17828  2023  Opening Night Race Results | Kenosha Velodrome    
+17829  2023  Opening Night Race Results | Kenosha Velodrome    
+17830  2023  Opening Night Race Results | Kenosha Velodrome    
+17831  2023  Opening Night Race Results | Kenosha Velodrome    
 
-                         race_name placing                      rider  \
-17728  Women Open Elimination Race       2                  Piper Yde   
-17729  Women Open Elimination Race       3  Stella Bickham-Okoniewski   
-17730  Women Open Elimination Race       4                  Lucy Foss   
-17731  Women Open Elimination Race       5            Celine Stichert   
-17732  Women Open Elimination Race       6             Reilly Fenters   
+                      race_name placing                      rider  \
+17827  Junior 9-14 Scratch Race       7              Lucia Delgado   
+17828    Women Open Points Race       1                  Piper Yde   
+17829    Women Open Points Race       2                  Lucy Foss   
+17830    Women Open Points Race       3  Stella Bickham-Okoniewski   
+17831    Women Open Points Race       4            Celine Stichert   
 
                             team racenumber  
-17728                                   123  
-17729              Adapt Cycling         64  
-17730                                     7  
-17731  Kenosha Velosport Cycling         14  
-17732  Kenosha Velosport Cycling        117  
+17827  Kenosha Velosport Cycling         21  
+17828                                   123  
+17829                                     7  
+17830              Adapt Cycling         64  
+17831  Kenosha Velosport Cycling         14  
 </pre>
 </div>
 </div>
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div>
